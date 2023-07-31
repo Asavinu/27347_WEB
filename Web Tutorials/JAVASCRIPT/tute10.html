@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+<script>
+  let cal_mark = prompt("Calculation");
+let n1 = parseInt(prompt("Number 1"));
+let n2 = parseInt(prompt("Number 2"));
+let output = 0;
+
+if(cal_mark == '+') {
+    output = n1 + n2;
+}
+else if (cal_mark == '-') {
+    output = n1 - n2;
+}
+else if (cal_mark == '/') {
+    output = n1 / n2;
+}
+else if (cal_mark == '*') {
+    output = n1 * n2;
+}
+else {
+    alert('Enter Valid Calculation Input');
+}
+document.write(n1+ cal_mark+ n2+ ' is '+ output);
+
+</script>
+    
+  </body>
+</html>

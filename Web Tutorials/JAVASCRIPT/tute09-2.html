@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript" type="text/javascript">
+        function y()
+        {
+            var conf=window.confirm("Do you want to visit?");
+            if(conf)
+            {
+                window.location.href = "https://www.google.com/"
+            }
+            else 
+            {
+                window.alert("You decided to stay");
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="google" onclick="y()">
+    
+</body>
+</html>
